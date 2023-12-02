@@ -1,4 +1,4 @@
-var ghpages = require('gh-pages');
+import * as ghpages from 'gh-pages';
 
 ghpages.publish(
     'public',
