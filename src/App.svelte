@@ -36,7 +36,8 @@
 	};
 
 	const getTopicFromTitle = (title) => {
-		const match = title.match(/\((\w{3})\)/);
+		const match = title.match(/\((\w{3})\d{3}\)/);
+		console.log(title);
 		return match ? match[1] : "";
 	};
 
