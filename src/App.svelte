@@ -101,6 +101,12 @@
 		background-color: #f4f4f4;
 	}
 
+	@media (max-width: 1250px) {
+		.sidebar {
+			display: none;
+		}
+	}
+
 	.sidebar h3 {
 		margin-bottom: 10px;
 		font-size: 16px;
