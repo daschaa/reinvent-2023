@@ -207,7 +207,7 @@
                 {#if showBookmarked}
                     Show All
                 {:else}
-                    Favorites ({bookmarks.length})
+                    Show Favorites ({bookmarks.length})
                 {/if}
             </button>
             <button on:click={clearFilters}>Clear Filters</button>
