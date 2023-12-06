@@ -1168,10 +1168,6 @@
     "url": "https://www.youtube.com/watch?v=xf8cuOC-Sv4"
   },
   {
-    "title": "AWS re:Invent 2023 - Build without limits: The next-generation developer experience at AWS (DOP225)",
-    "url": "https://www.youtube.com/watch?v=8mUosAh3gLc"
-  },
-  {
     "title": "AWS re:Invent 2023 - How Fetch built world-class ML models to power their business (SEG301)",
     "url": "https://www.youtube.com/watch?v=S0rltBHGMjw"
   },
@@ -1214,10 +1210,6 @@
   {
     "title": "AWS re:Invent 2023 - Accelerate generative AI and ML workloads with AWS storage (STG212)",
     "url": "https://www.youtube.com/watch?v=QOeYpSFJf7s"
-  },
-  {
-    "title": "AWS re:Invent 2023 - Dive deep on Amazon S3 (STG314)",
-    "url": "https://www.youtube.com/watch?v=sYDJYqvNeXU"
   },
   {
     "title": "AWS re:Invent 2023 - Accelerate ML and HPC with high performance file storage (STG340)",
@@ -1768,10 +1760,6 @@
     "url": "https://www.youtube.com/watch?v=nlGyIa3UQYU"
   },
   {
-    "title": "AWS re:Invent 2023 - AWS networking foundations (NTA307)",
-    "url": "https://www.youtube.com/watch?v=8nNurTFy-h4"
-  },
-  {
     "title": "AWS re:Invent 2023 - How Santander built a cloud-native trading platform at scale (FSI311)",
     "url": "https://www.youtube.com/watch?v=2ROSAZ2ieoc"
   },
@@ -1960,10 +1948,6 @@
     "url": "https://www.youtube.com/watch?v=hnM_gAu5rl0"
   },
   {
-    "title": "AWS re:Invent 2023 - Innovate faster with generative AI (AIM245)",
-    "url": "https://www.youtube.com/watch?v=edPF6ItZsnE"
-  },
-  {
     "title": "AWS re:Invent 2023 - Hack your SaaS growth with AWS SaaS Factory (PEX118)",
     "url": "https://www.youtube.com/watch?v=sS3b3hsgW9I"
   },
@@ -2050,10 +2034,6 @@
   {
     "title": "AWS re:Invent 2023 - Centralize user activity from external sources in AWS CloudTrail Lake (COP341)",
     "url": "https://www.youtube.com/watch?v=5CaJ_dTgTMU"
-  },
-  {
-    "title": "AWS re:Invent 2023 - Innovation talk: Emerging tech | HYB207-INT",
-    "url": "https://www.youtube.com/watch?v=iEV3H_IV-ag"
   },
   {
     "title": "AWS re:Invent 2023 - How adidas revolutionizes digital systems to fuel a thriving business (CPG101)",
@@ -2508,10 +2488,6 @@
     "url": "https://www.youtube.com/watch?v=b3Swj1hc5rY"
   },
   {
-    "title": "AWS re:Invent 2023 - Best practices for Amazon CodeWhisperer (DOP201)",
-    "url": "https://www.youtube.com/watch?v=F_dSkRHCXBc"
-  },
-  {
     "title": "AWS re:Invent 2023 - How BMW uses analytics for supply chains during semiconductor shortage (PRO206)",
     "url": "https://www.youtube.com/watch?v=B9dhLQZFTlw"
   },
@@ -2672,10 +2648,6 @@
     "url": "https://www.youtube.com/watch?v=nEfMyazR1Mc"
   },
   {
-    "title": "AWS re:Invent 2023 - Build and run it: Streamline DevOps with machine learning on AWS (DOP207)",
-    "url": "https://www.youtube.com/watch?v=kZ3BZ0DhwHA"
-  },
-  {
     "title": "AWS re:Invent 2023 - Shipping securely: How strong security can be your strategic advantage (SEG203)",
     "url": "https://www.youtube.com/watch?v=Q0Gn9X9wQ7Q"
   },
@@ -2762,10 +2734,6 @@
   {
     "title": "AWS re:Invent 2023 - How Choice Hotels is unifying guest profiles to drive personalization (TRV203)",
     "url": "https://www.youtube.com/watch?v=NaeBNvZnWjY"
-  },
-  {
-    "title": "AWS re:Invent 2023 - From hype to impact: Building a generative AI architecture (ARC217)",
-    "url": "https://www.youtube.com/watch?v=1Lat8dP7Eq0"
   },
   {
     "title": "AWS re:Invent 2023 - Building NFT experiences on AWS (BLC203)",
@@ -3148,10 +3116,6 @@
     "url": "https://www.youtube.com/watch?v=iB78FrFWrLE"
   },
   {
-    "title": "AWS re:Invent 2023 - Overspending on laptops? Introducing Amazon WorkSpaces Thin Client (EUC215)",
-    "url": "https://www.youtube.com/watch?v=Viurp8p34Eo"
-  },
-  {
     "title": "AWS re:Invent 2023 - Building a cloud-backed generative AI game in 60 minutes (COM201)",
     "url": "https://www.youtube.com/watch?v=9UGfVeIQc-s"
   },
@@ -3424,10 +3388,6 @@
     "url": "https://www.youtube.com/watch?v=vlidizRzzWQ"
   },
   {
-    "title": "AWS re:Invent 2023 - Refactoring to serverless (SVS305)",
-    "url": "https://www.youtube.com/watch?v=bIu8XZZROw4"
-  },
-  {
     "title": "AWS re:Invent 2023 - Advanced event-driven patterns with Amazon EventBridge (COM301-R)",
     "url": "https://www.youtube.com/watch?v=6X4lSPkn4ps"
   },
@@ -3452,35 +3412,11 @@
     "url": "https://www.youtube.com/watch?v=PhIC4JlYg7A"
   },
   {
-    "title": "AWS re:Invent 2023 - Getting started building serverless SaaS architectures (SEG206)",
-    "url": "https://www.youtube.com/watch?v=Cag8cDbi-sk"
-  },
-  {
     "title": "AWS re:Invent 2023 - From machine to digital services: Equipment as a service (MFG104)",
     "url": "https://www.youtube.com/watch?v=mdP3LoYuW5Q"
   },
   {
-    "title": "AWS re:Invent 2023 - Building high-performance gaming applications with Redis (BOA320)",
-    "url": "https://www.youtube.com/watch?v=jyikCMVzc-w"
-  },
-  {
     "title": "AWS re:Invent 2023 - Monday Night Live Keynote with Peter DeSantis",
     "url": "https://www.youtube.com/watch?v=pJG6nmR7XxI"
-  },
-  {
-    "title": "AWS re:Invent 2023 - Empowering citizens through digital innovation (WPS213)",
-    "url": "https://www.youtube.com/watch?v=TOb8Ret33bY"
-  },
-  {
-    "title": "AWS re:Invent 2023 - The power of cloud network innovation (NET208)",
-    "url": "https://www.youtube.com/watch?v=rwmAXlcHAvk"
-  },
-  {
-    "title": "AWS re:Invent 2023 - Move fast, stay secure: Strategies for the future of security (SEC237)",
-    "url": "https://www.youtube.com/watch?v=T-LwDlZbbU4"
-  },
-  {
-    "title": "AWS re:Invent 2023 - Cloud operations for today, tomorrow, and beyond (COP227)",
-    "url": "https://www.youtube.com/watch?v=3dF9cdkZ8kI"
   }
 ]

@@ -120,7 +120,7 @@
 	}
 
 	.video-card {
-		/*width: 30rem;*/
+		max-height: 300px;
 		border: 1px solid #ddd;
 		padding: 10px;
 		border-radius: 4px;
