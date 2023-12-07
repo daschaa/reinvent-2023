@@ -10,6 +10,7 @@
     let selectedLevels = [];
     let bookmarks = loadBookmarksFromUrl();
     let showBookmarked = false;
+    let currentVideo = '';
 
     let topics = [
         "DOP", "SEG", "BIZ", "ENT", "SEC", "SPT", "STG", "IMP", "ANT", "AIM",
@@ -102,6 +103,15 @@
             filterVideos(); // Restore original filters
         }
     };
+
+    const toggleVideo = (video) => {
+        if (currentVideo === video) {
+            currentVideo = '';
+            return;
+        }
+        currentVideo = video;
+    }
+
     onMount(() => {
         filterVideos();
     });
@@ -117,11 +127,11 @@
         padding: 20px;
         background-color: #333;
         color: #fff;
-        display: flex;
-        justify-content: space-between;
         width: 100%;
         z-index: 1;
         box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 9fr 2fr;
     }
 
     input {
@@ -197,20 +207,24 @@
         margin-right: 5px;
     }
 
+    /*.cta-button {*/
+    /*    width: 80%;*/
+    /*}*/
+
 </style>
 
 <main>
     <div class="top-bar">
         <input bind:value={searchInput} placeholder="Search for video titles" on:input={filterVideos}/>
-        <div>
-            <button on:click={filterBookmarkedVideos}>
+        <div class="button-container">
+            <button class="cta-button" on:click={filterBookmarkedVideos}>
                 {#if showBookmarked}
                     Show All
                 {:else}
                     Show Favorites ({bookmarks.length})
                 {/if}
             </button>
-            <button on:click={clearFilters}>Clear Filters</button>
+            <button class="cta-button" on:click={clearFilters}>Clear Filters</button>
         </div>
     </div>
 
@@ -235,11 +249,16 @@
             {#if filteredVideos.length > 0}
                 {#each filteredVideos as video (video.url)}
                     <div class="video-card">
-                        <Youtube id="{getYoutubeVideoId(video.url)}"/>
+                        {#if currentVideo === video}
+                             <Youtube id="{getYoutubeVideoId(video.url)}"/>
+                        {/if}
                         <div class="video-card-subtitle">
                             <h5>{video.title}</h5>
                             <span class="bookmark-icon" on:click={() => toggleBookmark(video)}>
                               {bookmarks.find((b) => b.url === video.url) ? '🌟' : '☆'}
+                            </span>
+                            <span class="bookmark-icon" on:click={() => toggleVideo(video)}>
+                                🎥
                             </span>
                         </div>
                     </div>
