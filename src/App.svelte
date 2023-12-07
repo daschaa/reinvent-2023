@@ -8,7 +8,7 @@
     let searchInput = "";
     let selectedTopics = [];
     let selectedLevels = [];
-    let bookmarks = loadBookmarksFromUrl();
+    let bookmarks = loadBookmarks();
     let showBookmarked = false;
     let currentVideo = '';
 
@@ -56,7 +56,7 @@
     };
 
 
-    function loadBookmarksFromUrl() {
+    function loadBookmarks() {
         const urlParams = new URLSearchParams(window.location.search);
         const encodedBookmarks = urlParams.get('bookmarks');
 
@@ -66,7 +66,10 @@
 
             return JSON.parse(decompressedString);
         }
-
+        const storageItems = localStorage.getItem('bookmarks');
+        if(storageItems) {
+            return JSON.parse(storageItems)
+        }
         return [];
     }
 
@@ -130,8 +133,8 @@
         width: 100%;
         z-index: 1;
         box-sizing: border-box;
-        display: grid;
-        grid-template-columns: 9fr 2fr;
+        display: flex;
+        justify-content: space-between;
     }
 
     input {
@@ -160,9 +163,18 @@
         background-color: #f4f4f4;
     }
 
-    @media (max-width: 1250px) {
+    @media (max-width: 800px) {
         .sidebar {
             display: none;
+        }
+    }
+
+    @media (min-width: 480px) {
+        .button-container {
+            display: flex;
+        }
+        .button-container > button {
+            margin-left: 1rem;
         }
     }
 
@@ -185,7 +197,7 @@
     }
 
     .video-card {
-        max-height: 300px;
+        max-height: 400px;
         border: 1px solid #ddd;
         padding: 10px;
         border-radius: 4px;
@@ -207,9 +219,13 @@
         margin-right: 5px;
     }
 
-    /*.cta-button {*/
-    /*    width: 80%;*/
-    /*}*/
+    @media (max-width: 480px) {
+        .button-container {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
 
 </style>
 
